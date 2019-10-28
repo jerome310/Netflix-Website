@@ -1,0 +1,999 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/US-en-20191014-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+header {
+  min-height: 50px;
+}
+
+header img {
+  margin: 20px;
+  width: 200px;
+}
+
+main {
+  max-width: 400px;
+  color: white;
+  min-height: 530px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 50px;
+  margin: 0 auto 150px;
+}
+
+main h1 {
+  font-weight: 700;
+}
+
+form input[type="text"] {
+  padding: 15px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.div1 input[type="text"] {
+  margin: 10px 0;
+}
+
+.div2 input[type="password"] {
+  padding: 15px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.div3 {
+  text-align: center;
+  padding: 15px;
+  margin: 30px 0 0;
+  background-color: #e50914;
+  color: white;
+  font-weight: 700;
+  width: 82%;
+  border-radius: 5px;
+}
+
+.div3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.div3 a:hover{
+  color:black;
+}
+
+.div4 input[type="checkbox"] {
+  width: 20px;
+  height: 18px;
+  position: relative;
+  right: 5px;
+}
+
+.div4 {
+  margin: 10px 0 150px 0;
+}
+
+.div4 span {
+  color: #b3b3b3;
+  font-size: 15px;
+  margin: 0 0 0 -10px;
+  position: relative;
+  bottom: 3px;
+}
+
+.div4 a {
+  float: right;
+  width: 34%;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+footer {
+  min-height: 300px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #999;
+}
+
+.questions a {
+  color: #999;
+  text-decoration: none;
+}
+
+.questions a:hover {
+  text-decoration-line: underline;
+}
+
+.globe-icon {
+  position: relative;
+  left: 30px;
+}
+
+select {
+  text-indent: 20px;
+}
+
+.custom-select select {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #999;
+  padding: 12px 20px;
+}
+
+.custom-select select option {
+  color: white;
+}
+
+/* Footer Flexbox 1*/
+.flexbox-container1 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  /* background-color: pink; */
+}
+
+.questions {
+  text-align: right;
+  width: 30%;
+  min-height: 100px;
+  /* background-color: red; */
+}
+
+.custom-select {
+  padding-top: 10px;
+  width: 30%;
+  min-height: 100px;
+  /* background-color: blue; */
+}
+
+/*Footer Flexbox 2*/
+.flexbox-container2 {
+  min-height: 100px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flexbox2-headings {
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.sectionbuttons {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.sectionbuttons a {
+  line-height: 3;
+  padding-top: 10px;
+}
+
+.section1 {
+  min-height: 100px;
+  /* background-color: green; */
+  width: 15%;
+}
+
+.section1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section2 {
+  min-height: 100px;
+  /* background-color: blue; */
+  width: 15%;
+}
+
+.section2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section3 {
+  min-height: 100px;
+  /* background-color: purple; */
+  width: 15%;
+}
+
+.section3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section4 {
+  min-height: 100px;
+  /* background-color: orange; */
+  width: 15%;
+}
+
+.section4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section5 {
+  min-height: 100px;
+  /* background-color: brown; */
+  width: 15%;
+}
+
+.section5 a {
+  color: white;
+  text-decoration: none;
+}
+
+.section6 {
+  min-height: 100px;
+  /* background-color: rgb(0, 216, 245); */
+  width: 15%;
+}
+
+.section6 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Flexbox Container 3 */
+.flexbox-container3 {
+  min-height: 50px;
+  /* background-color:blue; */
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #999;
+  margin-top: 80px;
+}
+
+.socialmedia {
+  /* background-color:red; */
+}
+
+.socialmedia i {
+  font-size: 25px;
+  padding: 20px 20px 20px;
+}
+
+.footertext-container {
+  /* background-color:green; */
+  display: flex;
+  margin-right: 20px;
+}
+
+.footertext-container p {
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.footertext-container a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* End of Home Page */
+
+/* Movies Desktop Code */
+
+.container2 {
+  min-height: 100px;
+  background-color: black;
+  padding-top:30px;
+}
+
+/*Movie Heading Flexbox */
+
+#movies-image{
+  /* display:flex; */
+}
+
+#header-button {
+  text-align: center;
+  margin:30px 0;
+}
+
+#header-anchor{
+  color:white;
+  background-color:red;
+  padding:10px 15px;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+#header-anchor:hover{
+  color:black;
+}
+
+#netflix-image {
+  text-align: center;
+  margin:0 auto;
+}
+
+#netflix-image img{
+  width: 500px;
+}
+
+.movies-container {
+  min-height: 300px;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*Start of Movie Button Features */
+
+.play-btn {
+  width: 120px;
+  position: relative;
+  top: 20%;
+  left: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.col-md-4:hover .play-btn {
+  opacity: 1;
+}
+
+.modal-body video {
+  width: 100%;
+}
+
+/*End of Movie Button Features */
+
+.movie1 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie1 {
+  background-image: url(/img/movie1.jpg);
+  background-size: cover;
+}
+
+
+.movie2 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie2{
+  background-image: url(/img/Netflix\ Movie\ Images/Inside-Bills-Brain.jpg);
+  background-size: cover;
+}
+
+.movie3 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie3{
+  background-image: url(/img/Netflix\ Movie\ Images/Daredevil.jpg);
+  background-size: cover;
+}
+
+.movie4 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie4{
+  background-image: url(/img/Netflix\ Movie\ Images/The-Punisher.jpg);
+  background-size: cover;
+}
+
+.movie5 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie5 {
+  background-image: url(/img/Netflix\ Movie\ Images/Love-Death-+-Robots.jpg);
+  background-size: cover;
+}
+
+.movie6 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie6 {
+background-image: url(/img/Netflix\ Movie\ Images/Abstract-The-art-of-design.jpg);
+background-size: cover;
+}
+
+.movie7 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie7 {
+  background-image: url(/img/Netflix\ Movie\ Images/The-Spy.jpg);
+  background-size: cover;
+}
+
+.movie8 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie8 {
+  background-image: url(/img/Netflix\ Movie\ Images/Kengan-Ashura.jpg);
+  background-size: cover;
+}
+
+.movie9 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie9 {
+  background-image: url(/img/Netflix\ Movie\ Images/Dear-White-People.jpg);
+  background-size: cover;
+}
+
+.movie10 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie10 {
+  background-image: url(/img/Netflix\ Movie\ Images/13-Reasons-Why.jpg);
+  background-size: cover;
+}
+
+.movie11 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie11 {
+  background-image: url(/img/Netflix\ Movie\ Images/Tall-Girl.jpg);
+  background-size: cover;
+}
+
+.movie12 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie12 {
+  background-image: url(/img/Netflix\ Movie\ Images/The-Get-Down.jpg);
+  background-size: cover;
+}
+
+.movie13 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie13 {
+  background-image: url(/img/Netflix\ Movie\ Images/Westside.jpg);
+  background-size: cover;
+}
+
+.movie14 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie14 {
+  background-image: url(/img/Netflix\ Movie\ Images/Droppin-Cash.jpg);
+  background-size: cover;
+}
+
+.movie15 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie15 {
+  background-image: url(/img/Netflix\ Movie\ Images/How-It-Ends.jpg);
+  background-size: cover;
+}
+
+.movie16 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie16 {
+  background-image: url(/img/Netflix\ Movie\ Images/Another-Life.jpg);
+  background-size: cover;
+}
+
+.movie17 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie17 {
+  background-image: url(/img/Netflix\ Movie\ Images/El-Camino.jpg);
+  background-size: cover;
+}
+
+.movie18 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie18 {
+  background-image: url(/img/Netflix\ Movie\ Images/Schitts-Creek.webp);
+  background-size: cover;
+}
+
+.movie19 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie19 {
+  background-image: url(/img/Netflix\ Movie\ Images/Living-With-Yourself.jpg);
+  background-size: cover;
+}
+
+.movie20 {
+  min-height: 200px;
+  background-color: red;
+  width: 24%;
+  margin: 15px 1px;
+}
+
+.movie20 {
+  background-image: url(/img/Netflix\ Movie\ Images/sugar-rush.jpg);
+  background-size: cover;
+}
+
+/* Desktop 1024px Version */
+@media (max-width:1200px){
+  #netflix-image img{
+    width: 400px;
+  }
+
+  .movie1{
+    width:30%; 
+  }
+
+  .movie2{
+    width:30%;
+  }
+  .movie3{
+    width:30%;
+  }
+  .movie4{
+    width:30%;
+  }
+  .movie5{
+    width:30%;
+  }
+  .movie6{
+    width:30%;
+  }
+  .movie7{
+    width:30%;
+  }
+  .movie8{
+    width:30%;
+  }
+  .movie9{
+    width:30%;
+  }
+  .movie10{
+    width:30%;
+  }
+  .movie11{
+    width:30%;
+  }
+  .movie12{
+    width:30%;
+  }
+  .movie13{
+    width:30%;
+  }
+  .movie14{
+    width:30%;
+  }
+  .movie15{
+    width:30%;
+  }
+  .movie16{
+    width:30%;
+  }
+  .movie17{
+    width:30%;
+  }
+  .movie18{
+    width:30%;
+  }
+  .movie19{
+   display:none;
+  }
+
+  .movie20{
+   display:none;
+  }
+}
+
+/* Tablet Version */
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .questions {
+    width: 45%;
+    padding-left: 15px;
+  }
+
+  .custom-select {
+    padding-top: 10px;
+    width: 50%;
+    min-height: 100px;
+  }
+
+  .section1 {
+    width: 30%;
+  }
+
+  .section2 {
+    width: 30%;
+  }
+
+  .section3 {
+    width: 30%;
+  }
+
+  .section4 {
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  .section5 {
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  .section6 {
+    margin-top: 100px;
+    width: 30%;
+  }
+
+  .socialmedia {
+    width: 35%;
+  }
+
+  .footertext-container {
+    margin-right: 20px;
+    width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footertext-container p {
+    margin: 20px 0;
+    padding: 0 4px;
+  }
+
+  .responsivebutton {
+    margin-left: 30px;
+  }
+
+  /* Movies Section */
+  #netflix-image img{
+    width: 350px;
+  }
+
+  #header-button{
+    margin:30px auto;
+  }
+
+  .play-btn {
+    width: 120px;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  
+  .col-md-4:hover .play-btn {
+    opacity: 1;
+  }
+
+  .movie1{
+    width:45%; 
+  }
+
+  .movie2{
+    width:45%;
+  }
+  .movie3{
+    width:45%;
+  }
+  .movie4{
+    width:45%;
+  }
+  .movie5{
+    width:45%;
+  }
+  .movie6{
+    width:45%;
+  }
+  .movie7{
+    width:45%;
+  }
+  .movie8{
+    width:45%;
+  }
+  .movie9{
+    width:45%;
+  }
+  .movie10{
+    width:45%;
+  }
+  .movie11{
+    width:45%;
+  }
+  .movie12{
+    width:45%;
+  }
+  .movie13{
+    width:45%;
+  }
+  .movie14{
+    width:45%;
+  }
+  .movie15{
+    width:45%;
+  }
+  .movie16{
+    width:45%;
+  }
+  .movie17{
+    width:45%;
+  }
+  .movie18{
+    width:45%;
+  }
+  .movie19{
+    width:45%;
+  }
+
+  .movie20{
+    width:45%;
+  }
+  
+}
+
+/* Mobile Version */
+@media (max-width: 400px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #movies-image img{
+    width:100px;
+  }
+
+  main h1 {
+    text-align: center;
+  }
+
+  .div1 input[type="text"] {
+    margin: 10px 10px;
+  }
+
+  .div2 input[type="password"] {
+    margin: 10px 10px;
+  }
+
+  .div3 {
+    text-align: center;
+    padding: 15px;
+    margin: 30px 10px;
+    background-color: #e50914;
+    color: white;
+    font-weight: 700;
+    width: 81%;
+    border-radius: 5px;
+  }
+
+  .flexbox-container1 {
+    display: block;
+  }
+
+  .questions {
+    width: 85%;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .custom-select {
+    margin: 0 auto;
+  }
+
+  .custom-select select {
+    margin-left: 15px;
+  }
+
+  .globe-icon {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section1 {
+    margin-top: 50px;
+    width: 54%;
+  }
+  .section2 {
+    margin-top: 50px;
+    width: 62%;
+  }
+  .section3 {
+    margin-top: 50px;
+    width: 52%;
+  }
+  .section4 {
+    margin-top: 50px;
+    width: 70%;
+  }
+  .section5 {
+    margin-top: 50px;
+    width: 53%;
+  }
+  .section6 {
+    margin-top: 50px;
+    width: 48%;
+  }
+
+  .flexbox-container3 {
+    display: block;
+  }
+
+  .socialmedia {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footertext-container {
+    margin: 0 auto;
+  }
+
+  .footertext-container a {
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  /* Movie Section */
+  #netflix-image img{
+    width: 200px;
+  }
+
+  .movie1{
+    width:100%; 
+  }
+
+  .movie2{
+    width:100%;
+  }
+  .movie3{
+    width:100%;
+  }
+  .movie4{
+    width:100%;
+  }
+  .movie5{
+    width:100%;
+  }
+  .movie6{
+    width:100%;
+  }
+  .movie7{
+    width:100%;
+  }
+  .movie8{
+    width:100%;
+  }
+  .movie9{
+    width:100%;
+  }
+  .movie10{
+    width:100%;
+  }
+  .movie11{
+    width:100%;
+  }
+  .movie12{
+    width:100%;
+  }
+  .movie13{
+    width:100%;
+  }
+  .movie14{
+    width:100%;
+  }
+  .movie15{
+    width:100%;
+  }
+  .movie16{
+    width:100%;
+  }
+  .movie17{
+    width:100%;
+  }
+  .movie18{
+    width:100%;
+  }
+  .movie19{
+    width:100%;
+  }
+
+  .movie20{
+    width:100%;
+  }
+}

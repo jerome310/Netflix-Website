@@ -1,0 +1,6 @@
+<a href="" id="showSimpleModal">Show Modal</a>
+
+<div id="simpleModal" class="modal">
+<video width="320"  height="240" src="Davis_5109iPadFig3.m4v" controls="controls"> </video>
+<a href="" id="closeSimple">Close</a>
+</div>
